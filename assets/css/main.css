@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+div, h3, h1{
+    background: lightgreen;
+}
+
+section1{
+    font-size:32px;
+}
+
+
+#main{
+    font-style:italic;
+}
+
