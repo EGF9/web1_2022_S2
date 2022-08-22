@@ -20,8 +20,8 @@ margin-left: 10px;
     background-image: linear-gradient(rgb(52, 212, 218), rgb(81, 218, 149)); 
 }
 .container1 img{
-    height: 198px;
-    width: 386px;
+    height: 450px;
+    width: 850px;
 }
 
 li{
@@ -30,7 +30,12 @@ li{
 }
 
 .section1{
+font-size: 15px;
 justify-content: right;
+text-align: right;
+text-decoration: underline;
+position: relative;
+Right: 350px;
 }
 
 .section2{
