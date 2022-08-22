@@ -150,5 +150,8 @@ color: black;
 }
 
 .section10{
+    display: inline-flex;
     background-color: #4A3343;
+    width: 100%;
+    
 }
