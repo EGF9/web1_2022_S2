@@ -4,6 +4,11 @@ body{
     color: aliceblue;
 }
 
+.titleHead a{
+    color:#db9509;
+    text-decoration: none;
+}
+
 .titleHead{
     display: flex;
     height:127px;
@@ -15,11 +20,15 @@ body{
     margin-top: 10px;
     margin-left: 10px;
 }
+
 .titleHead li{
     display:inline-flex;
     padding: 2px 10px;
     position: relative;
-    color: #FBBE43;
+    color:#FBBE43;
+    left: 70%;
+    top: 30%;
+
 }
 
 
@@ -78,20 +87,36 @@ color: black;
 
 .section4{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     background-color: #4A3343;
     position: relative;
-    text-align: right;
+    text-align: left;
 }
 
-
-.section4 img{
-    display: flex;
-    justify-content: left;
+.section4 .container2 img{
     position: relative;
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
+
+.section4 .labels{
+    width: 180%;
+    height: 100%;
+    padding: 2%;
+    padding-top: 10%;
+    padding-right: 30%;
+}
+.section4 button{
+    position: relative;
+    background-color: #FBBE43;;
+    border: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 24px 42px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
 
 .section4 h1{
     color: #FBBE43;
@@ -149,9 +174,37 @@ color: black;
     width: 100%;
 }
 
-.section10{
+.Footer{
     display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
     background-color: #4A3343;
-    width: 100%;
-    
+    width: 100%;  
+}
+.Footer a{
+    color: aliceblue;
+      text-decoration: none;
+}
+
+.Footer h3{
+color: #FBBE43;
+display:inline-flex;
+position: relative;
+}
+
+.Footer .takePart{
+    width: 40%;
+}
+
+.Footer .learn{
+    width: 40%;
+}
+
+.Footer .about{  
+    width: 40%;
+}
+
+.Footer .TeTarua{
+    width: 40%;
 }
