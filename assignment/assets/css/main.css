@@ -126,7 +126,7 @@ body{
     justify-content: flex-end;
     font-weight: bolder;
     font-size: 15px;
-    padding-right: 50px;
+    padding-right: 350px;
 }
 
 .section1 ul{
@@ -193,6 +193,7 @@ button:hover{
     justify-content: center;
     font-size: 20px;
     line-height: 10px;
+    filter: brightness(100%);
 }
 
 
@@ -202,19 +203,18 @@ button:hover{
     grid-column: 1;
     padding-top: 50px;
     padding-left: 70px;
-  
 }
 
 .boxSet .box2{
     text-align: left;
-    background-color: cadetblue;
+    background-color: #E38091;
     padding-top: 50px;
     padding-left: 70px;
 }
 
 .boxSet .box3{
     text-align: left;
-    background-color: darksalmon;
+    background-color: #F07F3C;
     grid-column: 2;
     padding-top: 50px;
     padding-left: 70px;
@@ -223,7 +223,7 @@ button:hover{
 
 .boxSet .box4{
     text-align: left;
-    background-color: gainsboro;
+    background-color: #FBBE43;
     grid-column: 3;
     padding-top: 50px;
     padding-left: 70px;
@@ -231,7 +231,7 @@ button:hover{
 
 .boxSet .box5{
     text-align: left;
-    background-color: goldenrod;
+    background-color: #77C2A3;
     grid-column: 3;
     padding-top: 50px;
     padding-left: 70px;
@@ -239,12 +239,23 @@ button:hover{
 
 .boxSet .box6{
     text-align: left;
-    background-color: mediumslateblue;
+    background-color: #62C3D4;
  
     grid-column: 4;
     padding-top: 30px;
     padding-left: 50px;
 }
+
+.boxSet .box1:hover,
+.boxSet .box2:hover,
+.boxSet .box3:hover,
+.boxSet .box4:hover,
+.boxSet .box5:hover,
+.boxSet .box6:hover
+{
+    filter: brightness(80%);
+}
+
 
 .section4{
     background-color: #4A3343;
@@ -267,14 +278,6 @@ button:hover{
     line-height: 30px;
 }
 
-.section4 button{
-    display: flex;
-    flex-direction: row;
-    padding: 24px 42px;
-    border-radius: 5px;
-    margin-top: 5%;
-}
-
 .section4 h1{
     color: #FBBE43;
 }
@@ -294,21 +297,69 @@ button:hover{
 
 .section6 .gridContainer3{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 220px));
-    grid-template-rows: 220px 220px 220px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 250px));
+    grid-template-rows: 250px 250px 250px;
       justify-content: center;
 }
 
 .gridContainer3 .box1{
-    text-align: left;
     grid-column: 1;
     background-image: url("https://web.archive.org/web/20220813043714if_/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656058907/matariki2022/inbound1847181012048137900_jt3wvx.jpg");
-    background-color: #CF364C;
-    background-size: 370px;
-    width: 300px;
-    height: 300px;
-    padding-top: 50px;
-    padding-left: 70px;
+    background-size: 220px;
+}
+
+.gridContainer3 .box2{
+    grid-column: 2;
+    background-color: #FBBE43;
+}
+
+.gridContainer3 .box3{
+    grid-column: 3;
+    background-image: url("https://web.archive.org/web/20220813043714/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656045501/matariki2022/inbound1363354736459001191_lap3vt.jpg");
+    background-size: 250px;
+}
+
+.gridContainer3 .box4{
+    grid-column: 4;
+    background-image: url("https://web.archive.org/web/20220815040712/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656021447/matariki2022/B591F57C-B554-4139-9FE1-4657E1FFB377_h0jo5o.jpg");
+    background-size: 250px;
+}
+
+.gridContainer3 .box5{
+    grid-column: 1;
+    grid-row: 2;
+    background-color:red;
+}
+
+.gridContainer3 .box6{
+    grid-column: 2;
+    grid-row: 2;
+    background-color:palevioletred;
+}
+
+.gridContainer3 .box7{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: orange;
+}
+
+.gridContainer3 .box8{
+    grid-column: 4;
+    grid-row: 2;
+    background-image: url("https://web.archive.org/web/20220813043714/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1655797555/matariki2022/F723039A-9FF9-4E3D-8C36-FD46587100F2_kl3eyb.jpg");
+    background-size: 250px;
+}
+.gridContainer3 .box9{
+    grid-column: 1;
+    grid-row: 3;
+    background-color:#77C2A3 ;
+}
+.section4 button{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 42px;
+    border-radius: 5px;
+    margin-top: 5%;
 }
 
 
@@ -363,7 +414,7 @@ button:hover{
 .section9 .part2{
     background-color:  #CF364C;
     color: aliceblue; 
-    width: 100%;
+    width: 70%;
     padding-left: 30%;
     padding-top: 10%;
     
