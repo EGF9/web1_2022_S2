@@ -420,19 +420,19 @@ button:hover{
     
 }
 
-.Footer{
+.section10{
     display: grid;
     grid-template-columns: 3fr 3fr;
     background-color: #4A3343;
     padding-right: 40%;
 }
 
-.Footer a{
+.section10 a{
     color: aliceblue;
     text-decoration: none;
 }
 
-.Footer h3{
+.section10 h3{
     color: #FBBE43;
     position: relative;
 }
@@ -442,4 +442,9 @@ ul{
     text-align: left;
     width: 100%;
     padding-left: 35%;
+}
+
+footer{
+   background-color: #4A3343; 
+   
 }
