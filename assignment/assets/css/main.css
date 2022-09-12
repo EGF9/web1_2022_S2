@@ -478,23 +478,29 @@ button:hover{
 }
 
 .section9 .part1{
-    background-color:  #62C3D4;
+    box-sizing: border-box;
+    background-color: rgba(98, 195, 212, 1);
     color: aliceblue;
     width: 100%;
     padding-left: 30%;
-    padding-top: 10%;
-   
-
+    padding-top: 10%; 
 }
 
 .section9 .part2{
-    background-color:  #CF364C;
+    background-color:  rgba(207, 54, 76, 1);
     color: aliceblue; 
-    width: 70%;
+    width: 100%;
     padding-left: 30%;
     padding-top: 10%;
-    
 }
+
+.part1:hover{
+    background-color: rgba(79, 157, 171, 1);
+}
+.part2:hover{
+    background-color:  rgba(165, 43, 60, 1);
+}
+
 
 .section10{
     display: grid;
