@@ -282,30 +282,50 @@ button:hover{
     color: #FBBE43;
 }
 
+.section4 button{
+    display: flex;
+    flex-direction: row;
+    padding: 24px 42px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
 .section5{
+    background-color: #77C2A3;
     position: relative;
-    color: black;
-    background-color: aquamarine;
-    padding: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: "NeogroteskPro",sans-serif;
+    line-height: 10px;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .section6{
-   
     color: black;
     padding-bottom: 50px;
+    padding-top: 50px;
+    font-family: "NeogroteskPro",sans-serif;
+}
+
+.section6 h3{
+    font-size: 30px;
+    color: #4A3343;
+    padding-bottom: 40px;
 }
 
 .section6 .gridContainer3{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 250px));
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 300px));
+    grid-template-rows: 300px 300px 300px;
       justify-content: center;
 }
 
 .gridContainer3 .box1{
     grid-column: 1;
     background-image: url("https://web.archive.org/web/20220813043714if_/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656058907/matariki2022/inbound1847181012048137900_jt3wvx.jpg");
-    background-size: 220px;
+    background-size: 300px;
+    background-color: #F07F3C;
 }
 
 .gridContainer3 .box2{
@@ -316,54 +336,70 @@ button:hover{
 .gridContainer3 .box3{
     grid-column: 3;
     background-image: url("https://web.archive.org/web/20220813043714/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656045501/matariki2022/inbound1363354736459001191_lap3vt.jpg");
-    background-size: 250px;
+    background-size: 300px;
 }
 
 .gridContainer3 .box4{
     grid-column: 4;
     background-image: url("https://web.archive.org/web/20220815040712/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656021447/matariki2022/B591F57C-B554-4139-9FE1-4657E1FFB377_h0jo5o.jpg");
-    background-size: 250px;
+    background-size: 300px;
 }
 
 .gridContainer3 .box5{
     grid-column: 1;
     grid-row: 2;
-    background-color:red;
+    background-color:rgb(206, 61, 61);
 }
 
 .gridContainer3 .box6{
     grid-column: 2;
     grid-row: 2;
-    background-color:palevioletred;
+    background-color:rgb(218, 125, 156);
 }
 
 .gridContainer3 .box7{
     grid-column: 3;
     grid-row: 2;
-    background-color: orange;
+    background-color: rgb(235, 135, 53);
 }
 
 .gridContainer3 .box8{
     grid-column: 4;
     grid-row: 2;
     background-image: url("https://web.archive.org/web/20220813043714/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1655797555/matariki2022/F723039A-9FF9-4E3D-8C36-FD46587100F2_kl3eyb.jpg");
-    background-size: 250px;
+    background-size: 300px;
 }
 .gridContainer3 .box9{
     grid-column: 1;
     grid-row: 3;
     background-color:#77C2A3 ;
 }
-.section4 button{
-    display: flex;
-    flex-direction: row;
-    padding: 24px 42px;
-    border-radius: 5px;
-    margin-top: 5%;
+
+.hideBox1{
+    display: none;
+    font-size: 20px;
+}
+
+.box1:hover .hideBox1{
+    box-sizing: border-box;
+    display: block;
+    text-align: left;
+    background-color: orange;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+    line-height: 10px;
+    opacity: .7;
+    height: 100%;  
+}
+
+.box1:hover .hideBox1 p{
+    color: white;
+    opacity: 1;
 }
 
 
-    
+
 .section7{
     background-color: #4A3343;
     line-height: 5px;
