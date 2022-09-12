@@ -2,7 +2,7 @@ body{
     margin: 0;
     text-align: center;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:"NeogroteskPro",sans-serif;
     color: aliceblue;
 }
 
@@ -38,16 +38,13 @@ body{
     line-height: 10%;
     width: 100%;
     margin-right: 2%;
-
 }
 
 .TitleBoxContainer > div{
-    text-align: center;
-    height: 78%;
-    width: 180px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 160px;
     font-size: 15px;
-    font-family: sans-serif;
-
 }
 
 .titleBox1:hover h4,
@@ -62,7 +59,6 @@ body{
     background-color: #4A3343;
     padding-top: 2%;
     grid-template-columns: 1;
-    background-color: #4A3343;
 }
 .titleBox1:hover{
     background-color: pink;
@@ -467,13 +463,13 @@ button:hover{
     color: black;
     text-align: left;
     height: 45vh;
-    font-size: 20px;
-    line-height: 20%;
+    font-size: 25px;
+    line-height: 45%;
 
 }
 
 .section9 h2{
-    font-size: 50px;
+    font-size: 40px;
     
 }
 
@@ -487,6 +483,7 @@ button:hover{
 }
 
 .section9 .part2{
+    box-sizing: border-box;
     background-color:  rgba(207, 54, 76, 1);
     color: aliceblue; 
     width: 100%;
