@@ -325,7 +325,6 @@ button:hover{
     grid-column: 1;
     background-image: url("https://web.archive.org/web/20220813043714if_/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656058907/matariki2022/inbound1847181012048137900_jt3wvx.jpg");
     background-size: 300px;
-    background-color: #F07F3C;
 }
 
 .gridContainer3 .box2{
@@ -337,6 +336,7 @@ button:hover{
     grid-column: 3;
     background-image: url("https://web.archive.org/web/20220813043714/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1656045501/matariki2022/inbound1363354736459001191_lap3vt.jpg");
     background-size: 300px;
+    background-color: #77C2A3;
 }
 
 .gridContainer3 .box4{
@@ -369,36 +369,76 @@ button:hover{
     background-image: url("https://web.archive.org/web/20220813043714/https://res.cloudinary.com/dggvwzqm9/image/upload/g_faces,c_fill,h_350,w_350/v1655797555/matariki2022/F723039A-9FF9-4E3D-8C36-FD46587100F2_kl3eyb.jpg");
     background-size: 300px;
 }
+
 .gridContainer3 .box9{
     grid-column: 1;
     grid-row: 3;
     background-color:#77C2A3 ;
 }
 
-.hideBox1{
+
+.hideBox1,
+.hideBox2,
+.hideBox3,
+.hideBox4,
+.hideBox8
+{
     display: none;
-    font-size: 20px;
 }
 
-.box1:hover .hideBox1{
+.box1:hover .hideBox1,
+.box2:hover .hideBox2,
+.box3:hover .hideBox3,
+.box4:hover .hideBox4,
+.box8:hover .hideBox8
+{
     box-sizing: border-box;
     display: block;
     text-align: left;
-    background-color: orange;
-    padding-left: 30px;
-    padding-top: 10px;
+    color: white;
+    height: auto;
     font-size: 25px;
     line-height: 10px;
-    opacity: .7;
-    height: 100%;  
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 100%; 
+}
+.box1:hover .hideBox1{
+    background-color: rgba(207, 115, 9, 0.7);
 }
 
-.box1:hover .hideBox1 p{
+.box3:hover .hideBox3{
+    background-color: rgba(119, 194, 163, 0.7);
+}
+
+.box4:hover .hideBox4{
+    background-color: rgba(98, 195, 212, 0.7);
+}
+.box8:hover .hideBox8{
+    background-color: rgba(251, 190, 67, 0.7);
+}
+
+.box5,
+.box6,
+.box7,
+.box9{
+    box-sizing: border-box; 
+    text-align: left;
     color: white;
-    opacity: 1;
+    height: auto;
+    font-size: 25px;
+    line-height: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 100%; 
 }
-
-
+.box2:hover,
+.box5:hover,
+.box6:hover,
+.box7:hover,
+.box9:hover{
+    filter: brightness(70%);
+}
 
 .section7{
     background-color: #4A3343;
