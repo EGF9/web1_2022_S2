@@ -324,7 +324,17 @@
         .white{color:black;background:white;border:2px solid black;}
 
         /* ADD YOUR 3 CSS RULES HERE */
-        
+        .pawn.white{
+            grid-row: 7/8;
+        }
+
+        .pawn.black{
+            grid-row: 2/3;
+        }
+
+        .white:not(.pawn){
+            grid-row: 8/8;
+        }
 
     </style>
 
