@@ -6,28 +6,37 @@ body{
     color: aliceblue;
 }
 
+/*##################*/
+/*##################*/
+/* buttttttttonnns  */
+/*##################*/
+/*##################*/
+
+button{
+    background-color: #FBBE43;;
+    border: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 24px 42px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    color: #db9509;
+}
+
 /*####################*/
 /*####################*/
 /*    Header          */
 /*####################*/
 /*####################*/
-.titleHead a{
-    color:#db9509;
-    text-decoration: none; 
-}
-
-
 .titleHead{
     display: flex;
-    height: 15vh;
+    height: 13vh;
     background-color: #4A3343;
     width: 100%;
 }
-
-.titleHead h4{
-    color: #FBBE43;
-}
-
 .titleHead img{
     height: 60%;
     width: auto;
@@ -35,19 +44,25 @@ body{
     margin-left: 20px;
 }
 
+.titleHead h4{
+    color: #FBBE43;
+}
+
 .TitleBoxContainer{
     display: flex;
     justify-content: flex-end;
-    font-size: 100%;
     line-height: 10%;
     width: 100%;
-    margin-right: 2%;
+    padding-right: 80px;
 }
 
 .TitleBoxContainer > div{
     box-sizing: border-box;
     height: 100%;
-    width: 160px;
+    width: 10%;
+}
+
+.TitleBoxContainer ul{
     font-size: 15px;
 }
 
@@ -65,7 +80,7 @@ body{
     grid-template-columns: 1;
 }
 .titleBox1:hover{
-    background-color: pink;
+    background-color: #FEC8D1 ;
     color: black;
 }
 
@@ -81,11 +96,14 @@ body{
 
  .titleBox3{
     background-color: #4A3343;
-     padding-top: 2%;
-    grid-template-columns: 3;   
+    padding-top: 2%;
+    padding-right: 90px;
+    grid-template-columns: 3;  
+    white-space: nowrap;
 }
+
 .titleBox3:hover{
-    background-color: yellow;
+    background-color: #FBBE43;
     color: black;
 }
 
@@ -95,16 +113,20 @@ body{
     grid-template-columns: 4;
 }
 .titleBox4:hover{
-    background-color: aquamarine;
+    background-color: #77C2A3;
     color: black;
 }
 .titleBox5{
     background-color: #4A3343;
     padding-top: 2%;
     grid-template-columns: 5;
+    white-space: nowrap;
+    padding-right: 180px;
+    padding-left: 20px;
 }
+
 .titleBox5:hover{
-    background-color: #62C3D4;
+    background-color: #62C3D4 ;
     color: black;
 }
     
@@ -131,7 +153,6 @@ body{
     color: black;
     justify-content: flex-end;
     font-weight: bolder;
-    font-size: 15px;
     padding-right: 350px;
 }
 
@@ -143,16 +164,19 @@ body{
 .section1 li{
     position: relative;
     padding: 2px 2px;
-
+    font-size: 15px;
 }
 
 .ytVideo{
     padding-top: 40px;
-    position: relative;
-    width: 100%;
-    height: "0";
-    text-align: center;
+    width: 50%;
+    margin: auto;
+
 }
+.ytVideo video{
+    width: 100%;
+}
+
 
 /*####################*/
 /*####################*/
@@ -165,22 +189,10 @@ color: black;
 }
 
 .section2 h2{
-    color: #db9509;
+    color: #F07F3C;
+    line-height: 8px;
 }
 
-button{
-    background-color: #FBBE43;;
-    border: white;
-    font-size: 18px;
-    font-family: sans-serif;
-    padding: 24px 42px;
-    border-radius: 5px;
-}
-button:hover{
-    background-color: transparent;
-    border: 2px solid;
-    color: #db9509;
-}
 
 /*####################*/
 /*####################*/
@@ -586,6 +598,7 @@ button:hover{
 
 ul{
     list-style: none;
+    box-sizing: border-box;
     text-align: left;
     width: 100%;
     padding-left: 35%;
