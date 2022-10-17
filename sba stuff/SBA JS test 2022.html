@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /*
+
+            Complete the full names! You have been given an array of firstNames and an array of lastNames.
+            
+            1. As efficiently as possible, combine the appropriate names and add them to the fullNames array. (3 marks)
+
+                The array should be like this when done:
+
+                [
+                    "Donald Trump",
+                    "Kim Kardashian",
+                    "Melania Trump",
+                    "Khloe Kardashian",
+                    "Ivanka Trump",
+                    "Kourtney Kardashian"
+                ]
+
+            2. Sort the fullNames array so all the Kardashians appear first (in slots 0, 1, 2) and the Trumps are
+            second (in slot 3, 4, 5). (3 marks)
+
+                HINT: You can split the fullNames by the ' ' (space) character using the .split(" ") function of a string...
+                It will return an array of the two names...
+                So, in your sort method, you could split each name, access the [1] of the resulting array, and use that to
+                do the sort.
+
+        */
+
+        let firstNames = [
+            "Donald",
+            "Kim",
+            "Melania",
+            "Khloe",
+            "Ivanka",
+            "Kourtney"
+        ];
+
+        let lastNames = ["Kardashian", "Trump"];
+
+        let fullNames = [];
+
+        /* WRITE YOUR CODE HERE */
+        for(let i = 0; i < firstNames; i++)
+        {
+            let x = 1;
+            if(lastNames[x] > 1)
+            {
+                x = 0;
+            }
+
+            fullNames[i] = firstNames[i] + ' ' + lastNames[i]
+        }
+
+        console.log(fullNames);
+
+    </script>
+
+</body>
+</html>
