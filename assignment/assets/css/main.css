@@ -630,8 +630,8 @@ color: black;
     padding-top: 100px;
 }
 
-.section10 div:last-child{
-    text-align: right;
+.col3{
+    justify-content: right;
 }
 
 
@@ -647,7 +647,6 @@ color: black;
    padding-top: 50px;
 }
 
-/* for some unknown reason, if the width is not set, only aotea shows */
 .footer svg{
     width: 348px;
 }
