@@ -14,7 +14,8 @@ body{
 
 button{
     background-color: #FBBE43;;
-    border: white;
+    border: 2px solid;
+    border-color: #FBBE43;
     font-size: 18px;
     font-family: sans-serif;
     padding: 24px 42px;
@@ -22,7 +23,6 @@ button{
 }
 button:hover{
     background-color: transparent;
-    border: 2px solid;
     color: #db9509;
 }
 
@@ -48,7 +48,7 @@ button:hover{
     color: #FBBE43;
 }
 
-.TitleBoxContainer{
+.titleBoxContainer{
     display: flex;
     justify-content: flex-end;
     line-height: 10%;
@@ -56,7 +56,7 @@ button:hover{
     padding-right: 80px;
 }
 
-.TitleBoxContainer > div{
+.titleBoxContainer > div{
     box-sizing: border-box;
     white-space: nowrap;
     overflow: hidden;
@@ -64,7 +64,7 @@ button:hover{
     width: 10%;
 }
 
-.TitleBoxContainer ul{
+.titleBoxContainer ul{
     font-size: 15px;
     list-style: none;
     box-sizing: border-box;
@@ -173,6 +173,7 @@ button:hover{
 
 .section1 li{
     position: relative;
+    list-style-type: none;
     padding: 2px 2px;
     font-size: 15px;
 }
@@ -465,6 +466,9 @@ color: black;
 .box1:hover .hideBox1{
     background-color: rgba(207, 115, 9, 0.7);
 }
+.box2:hover .hideBox2{
+    background-color: rgba(207, 115, 9, 0.7);
+}
 
 .box3:hover .hideBox3{
     background-color: rgba(119, 194, 163, 0.7);
@@ -472,6 +476,15 @@ color: black;
 
 .box4:hover .hideBox4{
     background-color: rgba(98, 195, 212, 0.7);
+}
+.box5:hover .hideBox5{
+    background-color: rgba(251, 190, 67, 0.7);
+}
+.box6:hover .hideBox6{
+    background-color: rgba(251, 190, 67, 0.7);
+}
+.box7:hover .hideBox7{
+    background-color: rgba(251, 190, 67, 0.7);
 }
 .box8:hover .hideBox8{
     background-color: rgba(251, 190, 67, 0.7);
@@ -491,15 +504,6 @@ color: black;
     padding-top: 10px;
     height: 100%; 
 }
-
-.box2:hover,
-.box5:hover,
-.box6:hover,
-.box7:hover,
-.box9:hover{
-    filter: brightness(80%);
-}
-
 
 /*####################*/
 /*####################*/
