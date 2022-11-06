@@ -20,6 +20,7 @@ button{
     font-family: sans-serif;
     padding: 24px 42px;
     border-radius: 5px;
+    transition-duration: 100ms;
 }
 button:hover{
     background-color: transparent;
@@ -237,7 +238,7 @@ color: black;
     grid-template-columns: repeat(auto-fit, minmax(50px, 220px));
     grid-template-rows: 220px 220px 220px;
     justify-content: center;
-    line-height: 1px;
+    line-height: 1px; 
 }
 
 .boxSet .box1{
@@ -246,6 +247,9 @@ color: black;
     grid-column: 1;
     padding-top: 50px;
     padding-left: 40px;
+    background-position: 100% 50%;
+    background-size: 0% 100%;
+    transition: 500ms;
 }
 
 .boxSet .box2{
@@ -290,14 +294,24 @@ color: black;
     font-size: 18px;
 }
 
-.boxSet .box1:hover,
-.boxSet .box2:hover,
-.boxSet .box3:hover,
-.boxSet .box4:hover,
-.boxSet .box5:hover,
+.boxSet .box1:hover{
+    background-color: #972738;
+}
+.boxSet .box2:hover{
+    background-color: #b1626f;
+}
+.boxSet .box3:hover{
+    background-color: #cf6c33;
+}
+.boxSet .box4:hover{
+    background-color: #d4a036;
+}
+.boxSet .box5:hover{
+    background-color: #5b967d;
+}
 .boxSet .box6:hover
 {
-    filter: brightness(80%);
+    background-color: #4d99a7;
 }
 
 /*####################*/
@@ -466,9 +480,7 @@ color: black;
 .box1:hover .hideBox1{
     background-color: rgba(207, 115, 9, 0.7);
 }
-.box2:hover .hideBox2{
-    background-color: rgba(207, 115, 9, 0.7);
-}
+
 
 .box3:hover .hideBox3{
     background-color: rgba(119, 194, 163, 0.7);
@@ -632,6 +644,10 @@ color: black;
 
 .col3{
     justify-content: right;
+}
+
+.section10 p{
+    color: blue;
 }
 
 

@@ -1,0 +1,1 @@
+document.getElementsByClassName(titleBox1).addEventListener(click);
