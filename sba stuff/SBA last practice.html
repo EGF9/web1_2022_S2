@@ -59,36 +59,36 @@
         - bonus points if you can make your code DRY
 
     -->
-
     <script>
         /* WRITE YOUR CODE HERE! */
         let pln = document.querySelector(".player1 .stats .name");
         let pls = document.querySelector(".player1 .stats .species");
         let plt = document.querySelector(".player1 .stats .type");
-        let image = document.querySelector(".player1 .stats .image");
 
         let pln2 = document.querySelector(".player2 .stats .name");
         let pls2 = document.querySelector(".player2 .stats .species");
         let plt2 = document.querySelector(".player2 .stats .type");
         let btn = document.querySelector("#generate");
 
+        //creates the button and run the whole function threw it.
         btn.addEventListener("click", e => {
             generation();
         });
 
+        //creates the random generators for wach player.
         function generation(){
         let page = Math.floor(Math.random()*43) + 1;
         let ran = Math.floor(Math.random()*20);
         let ran2 = Math.floor(Math.random()*20);
 
 
+        //grabs the url, gets a random page, randomises each result.
         const url = " https://rickandmortyapi.com/api/character";
         let f = fetch(`${url}/?page$[page]`);
         f.then(response =>{
         return response.json();
         }).then(data => {
             console.log(data["results"]);
-            pln.innerHTML = data["results"][ran] ["image"]
             pln.innerHTML = data["results"][ran] ["name"]
             pls.innerHTML = data["results"][ran] ["species"]
             plt.innerHTML = data["results"][ran] ["type"]
