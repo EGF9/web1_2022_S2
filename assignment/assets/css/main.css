@@ -231,7 +231,6 @@ color: black;
     padding-right: 50px;
 }
 
-
 .boxSet{
     display: grid;
     position: relative;
@@ -247,8 +246,6 @@ color: black;
     grid-column: 1;
     padding-top: 50px;
     padding-left: 40px;
-    background-position: 100% 50%;
-    background-size: 0% 100%;
     transition: 500ms;
 }
 
@@ -257,6 +254,8 @@ color: black;
     background-color: #E38091;
     padding-top: 50px;
     padding-left: 40px;
+    transition: 500ms;
+    font-size: 18px;
 }
 
 .boxSet .box3{
@@ -265,7 +264,7 @@ color: black;
     grid-column: 2;
     padding-top: 50px;
     padding-left: 40px;
-
+    transition: 500ms;
 }
 
 .boxSet .box4{
@@ -274,6 +273,7 @@ color: black;
     grid-column: 3;
     padding-top: 50px;
     padding-left: 40px;
+    transition: 500ms;
 }
 
 .boxSet .box5{
@@ -283,6 +283,7 @@ color: black;
     padding-top: 50px;
     padding-left: 40px;
     font-size: 18px;
+    transition: 500ms;
 }
 
 .boxSet .box6{
@@ -292,6 +293,7 @@ color: black;
     padding-top: 20px;
     padding-left: 40px;
     font-size: 18px;
+    transition: 500ms;
 }
 
 .boxSet .box1:hover{
@@ -311,7 +313,7 @@ color: black;
 }
 .boxSet .box6:hover
 {
-    background-color: #4d99a7;
+    background-color: #4e9fad;
 }
 
 /*####################*/
@@ -424,18 +426,21 @@ color: black;
     grid-column: 1;
     grid-row: 2;
     background-color:rgb(206, 61, 61);
+    padding-left: 15px;
 }
 
 .gridContainer3 .box6{
     grid-column: 2;
     grid-row: 2;
     background-color:rgb(218, 125, 156);
+    padding-left: 15px;
 }
 
 .gridContainer3 .box7{
     grid-column: 3;
     grid-row: 2;
     background-color: rgb(235, 135, 53);
+    padding-left: 15px;
 }
 
 .gridContainer3 .box8{
@@ -448,9 +453,11 @@ color: black;
 .gridContainer3 .box9{
     grid-column: 1;
     grid-row: 3;
-    background-color:#77C2A3 ;
+    background-color:#77C2A3;
+    padding-left: 15px;
 }
 
+.gridContainer3,
 .hideBox1,
 .hideBox2,
 .hideBox3,
@@ -458,8 +465,9 @@ color: black;
 .hideBox8
 {
     display: none;
+    
 }
-
+.gridContainer3,
 .box1:hover .hideBox1,
 .box2:hover .hideBox2,
 .box3:hover .hideBox3,
@@ -477,44 +485,38 @@ color: black;
     padding-top: 10px;
     height: 100%; 
 }
-.box1:hover .hideBox1{
+.gridContainer3 .box1:hover .hideBox1{
+    background-color: rgba(251,190,67,0.7);
+}
+.gridContainer3 .box2:hover .hideBox2{
     background-color: rgba(207, 115, 9, 0.7);
 }
 
-
-.box3:hover .hideBox3{
+.gridContainer3 .box3:hover .hideBox3{
     background-color: rgba(119, 194, 163, 0.7);
 }
-
-.box4:hover .hideBox4{
+.gridContainer3 .box4:hover .hideBox4{
     background-color: rgba(98, 195, 212, 0.7);
 }
-.box5:hover .hideBox5{
+.gridContainer3 .box5:hover{
+    background-color: rgba(163, 48, 48);
+    transition: 1s;
+}
+.gridContainer3 .box6:hover{
+    background-color: rgb(167, 96, 120);
+    transition: 1s;
+}
+.gridContainer3 .box7:hover{
+    background-color: rgb(190, 101, 28);
+    transition: 1s;
+}
+
+.gridContainer3 .box8:hover .hideBox8{
     background-color: rgba(251, 190, 67, 0.7);
 }
-.box6:hover .hideBox6{
-    background-color: rgba(251, 190, 67, 0.7);
-}
-.box7:hover .hideBox7{
-    background-color: rgba(251, 190, 67, 0.7);
-}
-.box8:hover .hideBox8{
-    background-color: rgba(251, 190, 67, 0.7);
-}
-.box2,
-.box5,
-.box6,
-.box7,
-.box9{
-    box-sizing: border-box; 
-    text-align: left;
-    color: white;
-    height: auto;
-    font-size: 25px;
-    line-height: 10px;
-    padding-left: 20px;
-    padding-top: 10px;
-    height: 100%; 
+.gridContainer3 .box9:hover{
+    background-color: #589179;
+    transition: 1s;
 }
 
 /*####################*/
