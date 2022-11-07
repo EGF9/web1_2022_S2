@@ -64,6 +64,8 @@
         let pln = document.querySelector(".player1 .stats .name");
         let pls = document.querySelector(".player1 .stats .species");
         let plt = document.querySelector(".player1 .stats .type");
+        let img = document.createElement("img")
+        let pl1image = document.querySelector(".player .avatar").append(img);
 
         let pln2 = document.querySelector(".player2 .stats .name");
         let pls2 = document.querySelector(".player2 .stats .species");
@@ -89,6 +91,7 @@
         return response.json();
         }).then(data => {
             console.log(data["results"]);
+            pl1image.innerHTML = data["result"][ran][img]
             pln.innerHTML = data["results"][ran] ["name"]
             pls.innerHTML = data["results"][ran] ["species"]
             plt.innerHTML = data["results"][ran] ["type"]
