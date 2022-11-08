@@ -554,15 +554,19 @@ color: black;
 }
 .photoGrid img{
     height: 80%;
-    border-style: solid;
+    border:2px groove;
+    border-radius: 5px;
 }
 .section8 .photoGrid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 6vw);
-    grid-gap: 15px;
+    grid-gap: 20px;
 }
-
+.photoGrid img:hover{
+    height: 100%;
+    transition: 500ms;
+}
 
 /*####################*/
 /*####################*/
