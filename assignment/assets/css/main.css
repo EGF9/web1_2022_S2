@@ -86,7 +86,6 @@ button:hover{
     background-color: #4A3343;
     padding-top: 2%;
     grid-template-columns: 1;
- 
 }
 .titleBox1:hover{
     background-color: #FEC8D1 ;
@@ -549,7 +548,21 @@ color: black;
 
 .section8{
     color: black;
+    padding-bottom: 50px;
+    padding-left: 450px;
+    padding-right: 450px;
 }
+.photoGrid img{
+    height: 80%;
+    border-style: solid;
+}
+.section8 .photoGrid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 6vw);
+    grid-gap: 15px;
+}
+
 
 /*####################*/
 /*####################*/
