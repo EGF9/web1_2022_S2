@@ -367,7 +367,6 @@ color: black;
     font-family: "NeogroteskPro",sans-serif;
     line-height: 10px;
     padding-top: 150px;
-    padding-bottom: 100px;
 }
 
 /*####################*/
@@ -380,7 +379,15 @@ color: black;
     color: black;
     padding-bottom: 50px;
     padding-top: 50px;
-    font-family: "NeogroteskPro",sans-serif;
+    font-family:Cambria;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+.buttonStuff a{
+    padding-left: 30px;
+    color:#eb6c22;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
 .section6 h3{
@@ -529,7 +536,7 @@ color: black;
     line-height: 5px;
     font-size: 18px;
     width: 100%;
-    padding-top: 70px;
+    padding-top: 80px;
     padding-bottom: 100px;
     }
 

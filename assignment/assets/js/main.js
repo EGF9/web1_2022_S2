@@ -1,1 +1,3 @@
-document.getElementsByClassName(titleBox1).addEventListener(click);
+document.addEventListener("click", e => {
+    
+});
